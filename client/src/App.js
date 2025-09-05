@@ -39,7 +39,7 @@ function App() {
           setAccount(address);
           
           // Update this with your deployed contract address
-          let contractAddress = "0x96fafF907bCD1b528287F601a9D6062F96F9E87E";
+          let contractAddress = "0x3EBA3532844B9d214c46651C742d24A51c4B1a87";
 
           const contract = new ethers.Contract(
             contractAddress,
